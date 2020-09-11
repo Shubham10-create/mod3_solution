@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #03FFFF;
+	color: #fff;
+	font-family: 'Oxygen',sans-serif;
+}
+
+/**Header**/
+.navbar-header {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.navbar-brand {
+	padding: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  text-decoration: none;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* Main Container*/
+#title {
+	font-size: 30px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+}
+
+section {
+	padding: 5px;
+	margin-top: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: #D0D6D6;
+	border: 1px solid black;
+	margin-bottom: 25px;
+
+}
+
+#visu-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#mining-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#ML-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#Data_visu {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FFFF00;
+}
+
+#data_mining {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FF1439;
+}
+
+#ML {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #6495ED;
+	color: white;
+	padding: 5px;
+}
